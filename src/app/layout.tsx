@@ -18,7 +18,8 @@ export default function RootLayout({
       <body>
         <Providers>
           <TopNavBar />
-          {children}
+          <main className='container mx-auto pt-10'> {children}</main>
+         
         </Providers>
       </body>
     </html>
